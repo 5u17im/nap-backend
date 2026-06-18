@@ -7,9 +7,11 @@
 | Campo | Detalle |
 | --- | --- |
 | **Documento** | Especificación de Requisitos de Software |
-| **Versión** | 1.0 |
-| **Fecha** | 17 de junio de 2026 |
+| **Versión** | 1.1 |
+| **Fecha** | 18 de junio de 2026 |
+| **Empresa** | Nothing Sense (En formación) |
 | **Autor** | Steven Ricardo Quiñones |
+| **Revisor** | Fredinson Solano (CEO) |
 | **Ciudad** | Montería, Córdoba, Colombia |
 | **Carácter** | Uso interno |
 
@@ -21,6 +23,7 @@
 | --- | --- | --- | --- |
 | 0.9 | 17/06/2026 | Borrador con introducción, descripción general y requisitos funcionales/no funcionales. | Steven R. Quiñones |
 | 1.0 | 17/06/2026 | Primera versión completa: se incorporan reglas de negocio, criterios de aceptación, casos de uso detallados, modelo conceptual de datos, diagramas de estado, matrices de trazabilidad y aprobación del documento. | Steven R. Quiñones |
+| 1.1 | 18/06/2026 | Actualización gerencial: Modelo operativo financiero, firmas, escrow, comisiones dinámicas, multas por disputas y exclusión de responsabilidad. | Fredinson Solano |
 
 ---
 
@@ -39,6 +42,8 @@
   - [2.4 Restricciones](#24-restricciones)
   - [2.5 Suposiciones y dependencias](#25-suposiciones-y-dependencias)
   - [2.6 Evolución previsible del sistema](#26-evolución-previsible-del-sistema)
+  - [2.7 Estrategia de Lanzamiento (Go-To-Market)](#27-estrategia-de-lanzamiento-go-to-market)
+  - [2.8 Modelo de Operación Financiera](#28-modelo-de-operación-financiera)
 - [3. Requisitos específicos](#3-requisitos-específicos)
   - [3.1 Requisitos de interfaces externas](#31-requisitos-de-interfaces-externas)
   - [3.2 Requisitos funcionales](#32-requisitos-funcionales)
@@ -75,11 +80,13 @@ Asimismo, constituye la base para las fases de diseño, implementación, verific
 
 ### 1.2 Alcance del producto
 
-El producto de software se denomina «NAP». Es una plataforma web que integra, en un único entorno, la conexión ágil entre personas con necesidades puntuales y profesionales capaces de resolverlas, así como la administración estructurada de contratos formales y corporativos de mayor duración.
+El producto de software se denomina «NAP». Es una plataforma web que integra, en un único entorno, la conexión ágil entre personas con necesidades puntuales y profesionales capaces de resolverlas, así como la administración estructurada de contratos formales y corporativos de mayor duración, ofreciendo a las empresas un modelo B2B (suscripción) para gestionar su portafolio de contratistas.
 
 El sistema permitirá registrar usuarios individuales y corporativos; publicar necesidades y servicios; emparejar oferta y demanda; generar contratos a partir de plantillas, tanto informales y simplificadas como formales y corporativas; negociar y firmar electrónicamente dichos contratos; gestionar pagos con custodia de fondos; hacer seguimiento del ciclo de vida contractual; y administrar las valoraciones, notificaciones y disputas asociadas.
 
-El sistema no pretende sustituir la asesoría jurídica profesional ni constituir, por sí mismo, una autoridad de certificación digital; cuando la firma electrónica requiera mecanismos certificados, la plataforma se integrará con proveedores externos especializados. Tampoco contempla, en esta versión, la gestión contable integral de las organizaciones.
+Es vital aclarar que en el modelo formal, **NAP actúa exclusivamente como mediador y facilitador tecnológico** para el encuentro y la gestión de contratos. Los contratos formales se suscriben directa y exclusivamente entre la empresa contratante y el profesional. NAP queda totalmente excluida como parte contractual de dichas relaciones.
+
+El sistema no pretende sustituir la asesoría jurídica profesional ni constituir, por sí mismo, una autoridad de certificación digital; cuando la firma electrónica requiera mecanismos certificados, la plataforma se integrará con proveedores externos especializados. Tampoco contempla, en esta versión, la gestión contable integral de las organizaciones, pero sí su integración con facturación electrónica DIAN para el cobro de sus propias comisiones.
 
 Entre los objetivos del producto se encuentran: reducir el tiempo y la fricción para formalizar acuerdos, ofrecer trazabilidad y seguridad jurídica a las relaciones contractuales, y centralizar en una sola herramienta distintos niveles de formalidad contractual.
 
@@ -201,8 +208,10 @@ La plataforma está dirigida a distintos perfiles de usuario, con diferentes niv
 ### 2.4 Restricciones
 
 - El sistema debe cumplir la legislación colombiana sobre comercio electrónico, firma y protección de datos personales.
+- **Riesgo Financiero y Custodia:** Para evitar la "captación masiva y habitual de dinero" (delito en Colombia), la plataforma no recibirá fondos en sus cuentas propias para el escrow. Se utilizará obligatoriamente un modelo de *Split de Pagos* o *Fiducia* mediante pasarelas de pago autorizadas por la Superintendencia Financiera (ej. ePayco, MercadoPago, etc.).
+- **Facturación DIAN:** El sistema debe prever la facturación electrónica DIAN obligatoria por las comisiones que cobra la plataforma a los usuarios.
 - La solución debe ser una aplicación web responsiva, sin requerir la instalación de software adicional por parte del usuario.
-- El sistema depende de servicios externos para el pago y para la firma electrónica certificada.
+- El sistema depende de servicios externos para el pago y para la firma electrónica. Se debe distinguir entre "Firma Electrónica Simple" (OTP, clickwrap, logs) para contratos rápidos y "Firma Digital Certificada" para los formales que lo exijan.
 - La interfaz debe ofrecerse, como mínimo, en idioma español.
 - Los datos sensibles y los documentos contractuales deben protegerse mediante cifrado y control de acceso.
 
@@ -217,10 +226,26 @@ La plataforma está dirigida a distintos perfiles de usuario, con diferentes niv
 
 Se prevén las siguientes líneas de evolución posteriores a esta versión:
 
+- **Validación de Seguridad Social (PILA):** Integración (vía OCR o API) para exigir que, antes de liberar un pago final en contratos formales, el contratista demuestre el pago de su seguridad social, mitigando el riesgo de responsabilidad solidaria para la empresa contratante.
 - Aplicación móvil nativa para Android e iOS.
 - Asistencia basada en inteligencia artificial para recomendar coincidencias y apoyar la redacción de cláusulas.
 - Soporte multi-idioma y multi-moneda para operar en otros mercados.
 - Integraciones con sistemas contables y de facturación electrónica.
+
+### 2.7 Estrategia de Lanzamiento (Go-To-Market)
+
+Para solventar el problema de adquirir oferta y demanda simultáneamente en el ecosistema, se plantea una metodología de despliegue gradual en fase beta:
+
+1. **Gancho Corporativo B2B (La Base):** Contactar proactivamente a un grupo selecto de empresas ofreciendo una suscripción a la plataforma para gestionar sus contratos. El objetivo es que ellas inviten a sus propios contratistas y freelancers actuales a usar la plataforma para organizarse.
+2. **Siembra de la Oferta (Profesionales):** Una vez los profesionales ingresan al sistema (invitados por empresas), se les incentiva a crear su perfil público y publicar servicios. Esto genera un catálogo base de oferta en el sistema.
+3. **Campaña C2C / Trabajos Informales:** Con una base de profesionales ya registrados en la plataforma, se realiza una campaña focalizada para la función inicial de "trabajos informales" y resolución de necesidades puntuales, permitiendo a los clientes individuales encontrar proveedores rápidamente y generar las primeras transacciones (entrada suave).
+
+### 2.8 Modelo de Operación Financiera
+
+La plataforma manejará los fondos y las obligaciones fiscales mediante el siguiente modelo para el mercado colombiano:
+
+- **Custodia mediante Split de Pagos:** Se empleará una pasarela de pago (Opción principal: ePayco o similar) que soporte el modelo *Split de Pagos* (o *Marketplace*). El pago del cliente ingresará a la pasarela, la cual retendrá los fondos temporalmente. Al confirmarse el servicio, la pasarela dispersará el pago directamente al proveedor (con fuerte enfoque en permitir retiros y cobros hacia **Nequi**, dada su alta adopción) y la comisión respectiva hacia NAP, evitando que NAP actúe como captador de fondos del público.
+- **Facturación Electrónica DIAN:** Toda comisión cobrada por NAP a los usuarios (tanto por transacción informal como por suscripción B2B) estará respaldada por una factura electrónica emitida automáticamente mediante la API de un Proveedor Tecnológico autorizado por la DIAN (ej. Alegra, Siigo, Facturadora.com), garantizando el cumplimiento tributario desde el inicio.
 
 ---
 
@@ -340,9 +365,9 @@ Garantiza la formalización de los acuerdos y contratos con validez e integridad
 
 | ID | Requisito | Prioridad |
 | --- | --- | --- |
-| **RF-033** | **Firma electrónica de contratos.** El sistema debe permitir firmar electrónicamente los acuerdos y contratos por todas las partes involucradas. | Alta |
+| **RF-033** | **Firma electrónica de contratos.** El sistema debe permitir firmar los acuerdos, diferenciando entre firma electrónica simple (OTP/Clickwrap) para informales y firma digital certificada para formales. Para contratos formales, se priorizará un proveedor local certificado (ej. Autentic, Certicámara) con DocuSign como alternativa de respaldo. | Alta |
 | **RF-034** | **Validación e integridad.** El sistema debe garantizar la integridad del documento firmado mediante sello de tiempo y resumen criptográfico (hash). | Alta |
-| **RF-035** | **Registro de auditoría de la firma.** El sistema debe conservar un registro de auditoría del proceso de firma (identidad, fecha, hora y dirección IP del firmante). | Alta |
+| **RF-035** | **Registro de auditoría de la firma.** El sistema debe conservar un registro de auditoría robusto del proceso de firma (identidad, fecha, hora, dirección IP y validación MFA del firmante). | Alta |
 | **RF-036** | **Múltiples firmantes.** El sistema debe soportar la firma secuencial o paralela de varios firmantes sobre un mismo contrato. | Media |
 
 #### 3.2.7 Gestión de pagos
@@ -380,12 +405,12 @@ Mantiene informados a los usuarios sobre los eventos relevantes del ciclo contra
 
 #### 3.2.10 Resolución de disputas
 
-Ofrece un mecanismo de gestión de conflictos asociado a los acuerdos y contratos.
+Ofrece un mecanismo de gestión de conflictos asociado a los acuerdos y contratos, estructurado legalmente como amigable composición.
 
 | ID | Requisito | Prioridad |
 | --- | --- | --- |
 | **RF-049** | **Apertura de disputa.** El sistema debe permitir a cualquiera de las partes abrir una disputa o reclamo asociado a un contrato o acuerdo. | Media |
-| **RF-050** | **Gestión y mediación.** El sistema debe ofrecer un flujo de gestión y mediación de disputas con intervención de un administrador o mediador. | Media |
+| **RF-050** | **Gestión y amigable composición.** El sistema debe ofrecer un flujo de gestión de disputas. Las partes aceptan previamente que la decisión del mediador de NAP es vinculante (amigable composición) para la liberación de los fondos. | Media |
 | **RF-051** | **Registro de evidencias.** El sistema debe permitir adjuntar evidencias (archivos y mensajes) al expediente de la disputa. | Baja |
 
 #### 3.2.11 Reportes y paneles de control
@@ -511,11 +536,11 @@ Las reglas de negocio expresan las políticas, restricciones y cálculos del dom
 | --- | --- | --- |
 | **RN-001** | La verificación de identidad (KYC) debe estar aprobada antes de que un usuario pueda firmar cualquier contrato o acuerdo. | RF-003, RF-033 |
 | **RN-002** | Todo usuario debe aceptar los términos de uso y la política de tratamiento de datos para completar su registro. | RF-001, RF-002, RNF-020 |
-| **RN-003** | La plataforma aplica una comisión sobre cada transacción liquidada; el porcentaje es un parámetro configurable por el administrador. | RF-038, RF-060 |
+| **RN-003** | La plataforma aplica una comisión dinámica (base ~10%, ajustable por promociones y tamaño del contrato) sobre cada transacción liquidada. | RF-038, RF-060 |
 | **RN-004** | Los fondos en custodia solo se liberan al confirmarse el cumplimiento total o de los hitos definidos, o al vencer el plazo de reclamo sin objeción. | RF-039, RF-040, RF-024 |
 | **RN-005** | Si se abre una disputa sobre un acuerdo con fondos en custodia, la liberación queda congelada hasta que la disputa se resuelva. | RF-049, RF-050, RF-039 |
 | **RN-006** | Un contrato formal solo pasa al estado «vigente» cuando todas las partes requeridas lo han firmado. | RF-029, RF-033, RF-036 |
-| **RN-007** | Tras la entrega de un acuerdo informal, el cliente dispone de un plazo configurable para confirmar o reclamar; vencido el plazo sin acción, el acuerdo se autoconfirma. | RF-023, RF-024, RF-060 |
+| **RN-007** | Tras la entrega de un acuerdo informal, el cliente dispone de un plazo máximo de 3 días para confirmar o reclamar; vencido el plazo sin acción, el acuerdo se autoconfirma. La reincidencia en esta omisión generará penalizaciones. | RF-023, RF-024, RF-060 |
 | **RN-008** | La reputación de un usuario se calcula como el promedio de sus calificaciones y solo se muestra públicamente a partir de un número mínimo configurable de valoraciones. | RF-043, RF-045 |
 | **RN-009** | El contenido de un contrato o acuerdo solo es visible para sus partes y, cuando corresponda, para el mediador o el administrador. | RF-007, RNF-013 |
 | **RN-010** | Las operaciones de firma y de pago requieren un segundo factor de autenticación (MFA). | RF-006, RF-033, RF-038 |
@@ -524,6 +549,8 @@ Las reglas de negocio expresan las políticas, restricciones y cálculos del dom
 | **RN-013** | Un contrato firmado no puede eliminarse; debe conservarse durante el período legal exigido. | RF-032, RNF-022 |
 | **RN-014** | En esta versión la moneda de operación es el peso colombiano (COP) y los importes deben ser valores no negativos. | RF-021, RF-038, RNF-023 |
 | **RN-015** | Las condiciones de cancelación de un acuerdo dependen de su estado: antes de iniciarse no genera penalidad; una vez en curso se rige por lo pactado entre las partes. | RF-023, RF-029 |
+| **RN-016** | Disputas injustificadas: Si un usuario pierde una disputa calificada de mala fe, se le retendrá un 5% extra como costo de mediación y se suspenderá temporalmente su cuenta. | RF-050 |
+| **RN-017** | La protección del Escrow y la validación de reputación aplican exclusivamente si los pagos y acuerdos ocurren dentro de NAP, eximiendo a la plataforma de toda responsabilidad por transacciones externas. | RF-039, RF-043 |
 
 ### 3.8 Criterios de aceptación
 
@@ -1167,7 +1194,7 @@ La presente especificación debe ser revisada y aprobada por los responsables de
 | Rol | Nombre | Responsabilidad | Fecha | Firma |
 | --- | --- | --- | --- | --- |
 | **Autor** | Steven Ricardo Quiñones | Elaboración de la especificación | 17/06/2026 | _______________ |
-| **Revisor** | _______________ | Revisión técnica y de completitud | ***/***/______ | _______________ |
+| **Revisor** | Fredinson Solano Rois | Revisión técnica y de completitud | 18/06/2026 | _______________ |
 | **Aprobador** | _______________ | Aprobación para pasar a diseño | ***/***/______ | _______________ |
 
 > Este documento se considera la línea base de requisitos (versión 1.0). Cualquier cambio posterior debe gestionarse mediante control de versiones, registrando la modificación en el historial de revisiones y, cuando corresponda, incrementando la versión del documento.
