@@ -24,6 +24,7 @@ Seguimiento/
 │   ├── instructivo-reporte-diario.md    ← Guía para llenar el reporte diario
 │   └── plantilla-weekly-sync.md         ← Formato para sync semanal leads→CEO
 ├── sprint-01/
+│   ├── backlog-sprint-01.md              ← Backlog del Sprint 1 (26 US, 9 épicas)
 │   ├── actas/                            ← Actas de ceremonias del Sprint 1
 │   └── reportes/                         ← Reportes asíncronos del Sprint 1
 │       ├── daily-dev-steven.md           ← CTO / Backend Lead

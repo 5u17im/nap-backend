@@ -94,6 +94,7 @@
 | `sprint-01/reportes/daily-dev-eduardo.md` | Reporte diario — Eduardo (Frontend Lead). | Alta |
 | `sprint-01/reportes/daily-dev-alcides.md` | Reporte diario — Alcides (Backend Dev). | Alta |
 | `sprint-01/reportes/daily-dev-andres.md` | Reporte diario — Andrés (Frontend Dev). | Alta |
+| `sprint-01/backlog-sprint-01.md` | Backlog del Sprint 1: 26 user stories organizadas en 9 épicas, listo para importar a Jira. | **Alta** |
 | `sprint-01/reportes/daily-ceo-fredinson.md` | Reporte ejecutivo — Fredinson (CEO). | Alta |
 
 ### 5_Contratos_Futuros_Verificacion (Para formalización posterior)
@@ -122,5 +123,5 @@
 | Documentación Empresarial | 21 |
 | Documentación Nothing Sense | 3 |
 | Documentos Legales | 12 |
-| Seguimiento | 10 (plantillas + instructivo + reportes individuais) |
-| **Total** | **50 documentos** |
+| Seguimiento | 11 (plantillas + instructivo + backlog + reportes individuales) |
+| **Total** | **51 documentos** |
