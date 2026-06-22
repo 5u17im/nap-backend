@@ -5,10 +5,10 @@ Entre los suscritos, Fredinson Solano, Steven Ricardo Quiñones y Eduardo Morale
 
 ## 1. Reconocimiento del Capital y Porcentajes
 Los accionistas ratifican que el capital de la empresa está fraccionado en 1.000.000 de Acciones Ordinarias, distribuidas así:
-- Fredinson Solano: 450.000 Acciones (45%)
-- Steven Quiñones: 350.000 Acciones (35%)
-- Eduardo Morales: 100.000 Acciones (10%)
-- Acciones en Reserva (Tesorería): 100.000 Acciones (10%)
+- Fredinson Solano: 420.000 Acciones (42%)
+- Steven Quiñones: 300.000 Acciones (30%)
+- Eduardo Morales: 160.000 Acciones (16%)
+- Acciones en Reserva (Tesorería): 120.000 Acciones (12%)
 
 ## 2. Cláusula de Vesting Societario (Maduración de Acciones)
 Los accionistas declaran que las acciones emitidas están sujetas a una restricción de dominio por un periodo de Cuarenta y Ocho (48) meses.
