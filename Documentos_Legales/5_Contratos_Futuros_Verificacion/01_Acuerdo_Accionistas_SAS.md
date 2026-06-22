@@ -33,13 +33,13 @@ Este mecanismo impide que un accionista adquiera acciones de forma privilegiada 
 Si uno o más accionistas mayoritarios (en conjunto, titulares de más del 30% de las acciones) venden su participación a un tercero, los accionistas minoritarios tendrán el derecho de **unirse a la venta** en las mismas condiciones y precio, vendiendo su participación proporcional. Este derecho protege a los minoritarios de quedarse atrapados en una sociedad con un nuevo controlador no deseado.
 
 ### 3.3. Derecho de Arrastre (*Drag-Along*)
-Si Fredinson Solano (como Accionista Mayoritario) acepta una oferta de un tercero para comprar la totalidad de Nothing Sense S.A.S., los demás accionistas estarán obligados a vender la totalidad de sus acciones en las mismas condiciones financieras, recibiendo su pago proporcional a su tenencia. La oferta deberá ser por la totalidad de las acciones de la compañía y a un precio y condiciones no discriminatorias para todos los accionistas.
+El accionista o grupo de accionistas que en conjunto posean la mayoría del capital social con derecho a voto podrán aceptar una oferta de un tercero para la compra de la totalidad de Nothing Sense S.A.S. En tal caso, los demás accionistas estarán obligados a vender la totalidad de sus acciones en las mismas condiciones financieras, recibiendo su pago proporcional a su tenencia. La oferta deberá ser por la totalidad de las acciones de la compañía y a un precio y condiciones no discriminatorias para todos los accionistas.
 
 ### 3.4. Derecho de Primera Oferta (*Right of First Offer*)
 Si la Sociedad emite nuevas acciones (aumento de capital), cada accionista tendrá el derecho de suscribir la porción que le corresponda para mantener su porcentaje de participación antes de que se ofrezcan a terceros.
 
 ## 4. Supermayorías para Decisiones Clave
-Las siguientes decisiones requerirán el voto favorable de al menos el **setenta y cinco por ciento (75%)** de las acciones suscritas y en circulación, garantizando que ninguna coalición minoritaria pueda aprobarlas sin el respaldo del Accionista Mayoritario:
+Las siguientes decisiones requerirán el voto favorable de al menos el **setenta y cinco por ciento (75%)** de las acciones suscritas y en circulación. Este umbral asegura que las decisiones de mayor impacto cuenten con un respaldo amplio y cualificado, protegiendo los intereses de largo plazo de la Sociedad:
 
 1. Modificación de la estructura accionaria (aumento o reducción de capital, emisión de nuevas clases de acciones).
 2. Fusión, escisión, disolución o liquidación de la Sociedad.
@@ -55,8 +55,8 @@ Las decisiones ordinarias (gestión diaria, presupuestos operativos, contratacio
 
 ### 5.1. Composición
 La Sociedad será administrada por un órgano colegiado de **tres (3) miembros** principales:
-- **Dos (2) miembros** designados exclusivamente por Fredinson Solano (o quien sea titular de la mayoría del capital con derecho a voto).
-- **Un (1) miembro** designado por los demás accionistas (Steven Quiñones y Eduardo Morales) en conjunto.
+- **Dos (2) miembros** designados por el accionista o grupo de accionistas que posean la mayoría del capital social con derecho a voto.
+- **Un (1) miembro** designado por los demás accionistas en conjunto.
 
 ### 5.2. Decisiones del Board
 Las siguientes decisiones requerirán el voto favorable de al menos **dos (2) de los tres (3) miembros**:
@@ -66,11 +66,12 @@ Las siguientes decisiones requerirán el voto favorable de al menos **dos (2) de
 - Definición de la estrategia anual de la compañía.
 
 ## 6. Acciones con Voto Múltiple (Clase B)
-Con fundamento en el artículo 10 de la Ley 1258 de 2008, se crea una **Clase B de Acciones Privilegiadas** asignadas exclusivamente a Fredinson Solano, con las siguientes características:
+Con fundamento en el artículo 10 de la Ley 1258 de 2008, se crea una **Clase B de Acciones Privilegiadas** con las siguientes características:
+- Las acciones Clase B podrán ser emitidas exclusivamente en favor del accionista fundador que haya concebido y liderado el modelo de negocio desde su origen, con el fin de preservar la visión estratégica de largo plazo de la Sociedad.
 - Cada acción Clase B tendrá **cinco (5) votos** en la Asamblea General de Accionistas.
 - Los derechos económicos (dividendos, liquidación) de las acciones Clase B son idénticos a los de las acciones ordinarias.
-- Las acciones Clase B son intransferibles a terceros no fundadores y se convierten automáticamente en acciones ordinarias si Fredinson Solano las transfiere a una persona distinta de sus herederos forzosos.
-- Esta Clase B se extingue automáticamente si Fredinson Solano posee menos del 15% del capital social total (dilución por rondas de inversión).
+- Las acciones Clase B son intransferibles a terceros no fundadores y se convierten automáticamente en acciones ordinarias si su titular original las transfiere a una persona distinta de sus herederos forzosos.
+- Esta Clase B se extingue automáticamente si su titular original posee menos del quince por ciento (15%) del capital social total como resultado de dilución por rondas de inversión.
 
 ## 7. Solución de Controversias
 Cualquier controversia entre los accionistas derivada del presente Acuerdo se resolverá mediante un proceso de **amigable composición** ante un mediador designado de común acuerdo. Si no se logra acuerdo en treinta (30) días calendario, la controversia se resolverá ante la justicia ordinaria de la ciudad de Montería, Córdoba, Colombia.
