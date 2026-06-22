@@ -5,10 +5,10 @@ Este documento detalla la estructura patrimonial de Nothing Sense S.A.S., defini
 ## 1. Distribución Accionaria y Justificación de Riesgo (Cap Table Inicial)
 | Rol / Integrante | Porcentaje | N.º Acciones | Justificación del Nivel de Riesgo |
 | :--- | :--- | :--- | :--- |
-| **Fredinson Solano (CEO)** | **42%** | 420.000 | Asume la responsabilidad civil, fondeo, validación comercial, ideación del modelo de negocio y estrategia total. |
+| **Fredinson Solano (CEO)** | **45,5%** | 455.000 | Asume la responsabilidad civil, fondeo, validación comercial, ideación del modelo de negocio y estrategia total. |
 | **Steven Ricardo (Backend Lead)** | **30%** | 300.000 | Co-fundador técnico. Carga con el riesgo crítico de ejecución: persistencia de datos, seguridad financiera y arquitectura escalable. |
-| **Eduardo Morales (Frontend Lead)**| **16%** | 160.000 | Socio clave (UI/UX, experiencia de usuario). Su participación se incrementa para reflejar su rol estratégico en la plataforma. |
-| **Option Pool (Reserva)** | **12%** | 120.000 | Acciones "no emitidas", reservadas en tesorería para atraer talento clave a futuro (Ej. Directores de Venta, Inversores de primera hora). |
+| **Eduardo Morales (Frontend Lead)**| **15%** | 150.000 | Socio clave (UI/UX, experiencia de usuario). |
+| **Option Pool (Reserva)** | **9,5%** | 95.000 | Acciones "no emitidas", reservadas en tesorería para atraer talento clave a futuro. |
 
 ## 2. Dinámica de Dilución (Rondas de Inversión)
 Todos los fundadores están sujetos a **dilución proporcional**. Por ejemplo, si en el Año 2, Nothing Sense levanta capital cediendo un 10% de la empresa a un inversor, ese 10% se descontará matemáticamente de los porcentajes de Fredinson, Steven, Eduardo y el Option Pool en partes proporcionales. *La filosofía gerencial dicta que es preferible poseer un porcentaje menor de una empresa valorada en millones, que el 100% de una empresa sin valor de mercado.*
