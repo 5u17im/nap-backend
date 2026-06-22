@@ -81,6 +81,16 @@
 | `01_Terminos_y_Condiciones_NAP.md` | Términos y condiciones de uso de la plataforma. | **Alta** |
 | `02_Politica_Tratamiento_Datos_1581.md` | Política de tratamiento de datos (Ley 1581/2012). | **Alta** |
 
+## 📂 `Seguimiento/` — Reportes, Actas y Registro de Comunicaciones
+
+| Archivo | Descripción | Prioridad |
+|---|---|---|
+| `INDICE_SEGUIMIENTO.md` | Índice cronológico de sprints, actas y reportes del equipo. | **Alta** |
+| `templates/plantilla-acta-reunion.md` | Plantilla única para actas de Planning, Daily, Review, Retro y Weekly Sync. | **Alta** |
+| `templates/plantilla-reporte-diario.md` | Plantilla para reporte diario individual de cada desarrollador. | Alta |
+| `templates/plantilla-weekly-sync.md` | Plantilla para sincronización semanal Leads → CEO. | Alta |
+| `sprint-XX/` | Carpetas por sprint con actas y reportes del equipo. | — |
+
 ### 5_Contratos_Futuros_Verificacion (Para formalización posterior)
 
 | Archivo | Descripción | Prioridad |
@@ -107,4 +117,5 @@
 | Documentación Empresarial | 21 |
 | Documentación Nothing Sense | 3 |
 | Documentos Legales | 12 |
-| **Total** | **40** |
+| Seguimiento | 4 (plantillas) + carpetas por sprint |
+| **Total** | **44 documentos + sprints** |
