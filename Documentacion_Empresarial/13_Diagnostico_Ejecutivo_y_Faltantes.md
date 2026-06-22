@@ -37,8 +37,8 @@ Este documento resume la auditoría de todo el material generado hasta la fecha,
 
 ## 3. ¿Qué NECESITAMOS AGREGAR? (Faltantes Críticos Próximos)
 
-1. **(Bloque 4) Arquitectura y Stack Tecnológico — Formalizar ADR propio:**
-   - Durante las sesiones de planificación ya se tomaron decisiones de stack (backend Spring Boot/Java, frontend Angular/TypeScript, PostgreSQL, Tailwind CSS, hosting Render/Vercel/Supabase, Cloudflare R2 para archivos, Spring Security para auth). Sin embargo, estas decisiones **no están formalmente documentadas como un ADR (Architecture Decision Record) en este repositorio**. Urge crear un documento que capture: contexto, opciones evaluadas, decisión tomada y consecuencias de cada elección tecnológica. Esto asegura que el equipo futuro entienda el *porqué* sin tener que reconstruirlo de memoria.
+1. **~~(Bloque 4) Arquitectura y Stack Tecnológico — Formalizar ADR propio~~** *(Resuelto — Ver `ADR_Stack_Tecnologico_NAP.md`)*
+   - El ADR ya está creado con 8 decisiones documentadas: monolito modular, Spring Boot, PostgreSQL, Angular, Tailwind CSS, infraestructura (Supabase + Render + Vercel), Spring Security como auth y Cloudflare R2 para archivos. Cada ADR incluye contexto, opciones evaluadas, decisión y consecuencias. Pendiente: mantenerlo vivo ante futuros cambios de stack.
 2. **Mapeo Visual (Wireframes y UI/UX):**
    - Pendiente. Antes de que Backend desarrolle la primera API, el Frontend Tech Lead (Eduardo) debe diseñar los "Mockups" o pantallas en Figma para aprobación del CEO. La ERS es texto; necesitamos ver cómo lucirá la aplicación. Prioridad sugerida: IU-01 (Registro/Login), IU-02 (KYC), IU-03 (Dashboard) primero, luego las pantallas transaccionales.
 3. **Plan de Reclutamiento de Beta-Testers (UAT):** *(Resuelto — Ver Doc 21)*

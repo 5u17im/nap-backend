@@ -37,6 +37,10 @@ Seguimiento/
 └── INDICE_SEGUIMIENTO.md              ← Este archivo
 ```
 
+### Instructivo asociado
+
+- `templates/instructivo-reporte-diario.md` — Guía paso a paso para que los devs entiendan el formato, cuándo y cómo reportar. Léelo antes del primer daily del sprint.
+
 ## Convenciones de nombrado
 
 - **Actas:** `[número-secuencial]-[ceremonia]-[YYYY-MM-DD].md`

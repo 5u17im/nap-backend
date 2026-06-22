@@ -88,6 +88,7 @@
 | `INDICE_SEGUIMIENTO.md` | Índice cronológico de sprints, actas y reportes del equipo. | **Alta** |
 | `templates/plantilla-acta-reunion.md` | Plantilla única para actas de Planning, Daily, Review, Retro y Weekly Sync. | **Alta** |
 | `templates/plantilla-reporte-diario.md` | Plantilla para reporte diario individual de cada desarrollador. | Alta |
+| `templates/instructivo-reporte-diario.md` | Instructivo paso a paso para que los devs llenen su reporte diario. | Alta |
 | `templates/plantilla-weekly-sync.md` | Plantilla para sincronización semanal Leads → CEO. | Alta |
 | `sprint-XX/` | Carpetas por sprint con actas y reportes del equipo. | — |
 
@@ -117,5 +118,5 @@
 | Documentación Empresarial | 21 |
 | Documentación Nothing Sense | 3 |
 | Documentos Legales | 12 |
-| Seguimiento | 4 (plantillas) + carpetas por sprint |
-| **Total** | **44 documentos + sprints** |
+| Seguimiento | 5 (plantillas + instructivo) + carpetas por sprint |
+| **Total** | **45 documentos + sprints** |
