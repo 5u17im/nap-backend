@@ -19,22 +19,21 @@
 ```
 Seguimiento/
 ├── templates/
-│   ├── plantilla-acta-reunion.md      ← Formato único para cualquier reunión
-│   ├── plantilla-reporte-diario.md     ← Formato para daily de cada dev
-│   └── plantilla-weekly-sync.md        ← Formato para sync semanal leads→CEO
-├── sprint-XX/
-│   ├── actas/                           ← Actas de ceremonias del sprint
-│   │   ├── 01-planning-YYYY-MM-DD.md
-│   │   ├── 02-daily-YYYY-MM-DD.md
-│   │   ├── 03-daily-YYYY-MM-DD.md
-│   │   └── ...
-│   └── reportes/                        ← Reportes asíncronos del sprint
-│       ├── daily-dev-steven.md
-│       ├── daily-dev-eduardo.md
-│       ├── daily-dev-dev1.md
-│       ├── daily-dev-dev2.md
+│   ├── plantilla-acta-reunion.md        ← Formato único para cualquier reunión
+│   ├── plantilla-reporte-diario.md      ← Formato para daily de cada dev
+│   ├── instructivo-reporte-diario.md    ← Guía para llenar el reporte diario
+│   └── plantilla-weekly-sync.md         ← Formato para sync semanal leads→CEO
+├── sprint-01/
+│   ├── actas/                            ← Actas de ceremonias del Sprint 1
+│   └── reportes/                         ← Reportes asíncronos del Sprint 1
+│       ├── daily-dev-steven.md           ← CTO / Backend Lead
+│       ├── daily-dev-eduardo.md          ← Frontend Lead
+│       ├── daily-dev-alcides.md          ← Backend Developer
+│       ├── daily-dev-andres.md           ← Frontend Developer
+│       ├── daily-ceo-fredinson.md        ← CEO
 │       └── weekly-sync-leads.md
-└── INDICE_SEGUIMIENTO.md              ← Este archivo
+├── sprint-XX/                            ← Plantilla para sprints futuros
+└── INDICE_SEGUIMIENTO.md               ← Este archivo
 ```
 
 ### Instructivo asociado

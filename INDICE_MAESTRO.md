@@ -90,7 +90,11 @@
 | `templates/plantilla-reporte-diario.md` | Plantilla para reporte diario individual de cada desarrollador. | Alta |
 | `templates/instructivo-reporte-diario.md` | Instructivo paso a paso para que los devs llenen su reporte diario. | Alta |
 | `templates/plantilla-weekly-sync.md` | Plantilla para sincronización semanal Leads → CEO. | Alta |
-| `sprint-XX/` | Carpetas por sprint con actas y reportes del equipo. | — |
+| `sprint-01/reportes/daily-dev-steven.md` | Reporte diario — Steven (CTO / Backend Lead). | Alta |
+| `sprint-01/reportes/daily-dev-eduardo.md` | Reporte diario — Eduardo (Frontend Lead). | Alta |
+| `sprint-01/reportes/daily-dev-alcides.md` | Reporte diario — Alcides (Backend Dev). | Alta |
+| `sprint-01/reportes/daily-dev-andres.md` | Reporte diario — Andrés (Frontend Dev). | Alta |
+| `sprint-01/reportes/daily-ceo-fredinson.md` | Reporte ejecutivo — Fredinson (CEO). | Alta |
 
 ### 5_Contratos_Futuros_Verificacion (Para formalización posterior)
 
@@ -118,5 +122,5 @@
 | Documentación Empresarial | 21 |
 | Documentación Nothing Sense | 3 |
 | Documentos Legales | 12 |
-| Seguimiento | 5 (plantillas + instructivo) + carpetas por sprint |
-| **Total** | **45 documentos + sprints** |
+| Seguimiento | 10 (plantillas + instructivo + reportes individuais) |
+| **Total** | **50 documentos** |
