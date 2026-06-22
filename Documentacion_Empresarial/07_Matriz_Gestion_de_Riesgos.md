@@ -7,10 +7,10 @@ Este documento es un artefacto vivo que debe ser revisado mensualmente por el CE
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | **RT-01** | Caída prolongada de la pasarela de pagos (Nequi/ePayco). | Media | Alto | Mostrar banner de "Mantenimiento Bancario", pausar autoconfirmaciones de 3 días y extender plazos temporalmente. | Backend Lead |
 | **RT-02** | Fuga de talento clave (Salida de un desarrollador). | Baja | Alto | Documentación estricta (Swagger) y cesión de IP para rápida integración de reemplazo. | CEO / Tech Leads |
-| **RT-03** | Vulnerabilidad de ciberseguridad (Fuga de datos). | Baja | Crítico | Encriptación (JWT, Bcrypt), prevención de inyecciones (ORM Prisma) y backups diarios. | Backend Lead |
+| **RT-03** | Vulnerabilidad de ciberseguridad (Fuga de datos). | Baja | Crítico | Encriptación (JWT, Bcrypt), prevención de inyecciones SQL (JPA/Hibernate parametrizado) y backups diarios. | Backend Lead |
 | **RT-04** | Subestimación de tiempos de desarrollo (Retraso). | Alta | Medio | Aplicar metodología Ágil, priorización MoSCoW (Must/Should/Could/Won't) y *Sprints* de 2 semanas. | CEO / Tech Leads |
 | **RT-05** | Fallas de integración y cuellos de botella entre Front y Back. | Media | Alto | Definir "API Contracts" (Swagger) estrictos antes de escribir código visual. Usar Mock APIs. | Tech Leads |
-| **RT-06** | Sobrecarga de Servidores (Picos de Tráfico). | Baja | Medio | Configurar Auto-escalamiento en Vercel/AWS. Optimización e indexación de queries SQL. | Backend Lead |
+| **RT-06** | Sobrecarga de Servidores (Picos de Tráfico). | Baja | Medio | Configurar Auto-escalamiento en el proveedor de hosting (Render + Vercel). Optimización e indexación de queries SQL. | Backend Lead |
 
 ## 2. Riesgos Legales, Financieros y Comerciales
 | ID | Descripción del Riesgo | Probabilidad | Impacto | Plan de Mitigación (Contingencia) | Responsable |

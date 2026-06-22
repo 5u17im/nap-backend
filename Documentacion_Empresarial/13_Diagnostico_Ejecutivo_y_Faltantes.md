@@ -24,20 +24,22 @@ Este documento resume la auditoría de todo el material generado hasta la fecha,
 
 ## 2. ¿Qué podríamos MEJORAR? (Áreas de Refinamiento)
 
-1. **Análisis Competitivo y Barreras de Entrada:**
-   - Tenemos claro *qué* hacemos, pero falta documentar cómo bloquearemos a competidores (Workana, Upwork, Torre) o a firmas tradicionales para evitar que nos copien el modelo local.
-2. **Estructura de *Pricing* (Comisiones Matemáticas):**
-   - Actualmente mencionamos una "Comisión dinámica ~10%". Deberíamos aterrizarlo en una tabla matemática que contemple los costos ocultos (ej. El ~2.99% + 900 COP que cobra ePayco/Nequi). Necesitamos asegurar que el "Spread" (Ganancia real de NAP) sea positivo.
-3. **El Discurso de Venta (*Elevator Pitch*):**
-   - Mencionamos un "Gancho B2B" para atraer la primera empresa, pero aún no tenemos el guion de ventas. ¿Qué le decimos a esa primera agencia para convencerla de usar nuestro Beta en lugar de pagarle a su contratista directamente por Nequi?
+> **Nota:** A diferencia de la versión inicial de este diagnóstico, los tres puntos siguientes ya cuentan con documentación formal creada. Se mantienen aquí como áreas de refinamiento continuo.
+
+1. **Análisis Competitivo y Barreras de Entrada:** *(Resuelto — Ver Doc 14)*
+   - Ya contamos con una Matriz de Análisis Competitivo que cubre Status Quo (WhatsApp+Nequi), plataformas globales (Upwork/Fiverr/Workana), bolsas de empleo (Torre) y nuestras ventajas injustas (foco local, cero fricción de divisas, escrow B2B accesible). Pendiente: revisar y actualizar trimestralmente a medida que el mercado cambie.
+2. **Estructura de *Pricing* (Comisiones Matemáticas):** *(Resuelto — Ver Doc 15)*
+   - Contamos con una tabla de simulación matemática (Casos A: $50K, B: $500K), Spread neto calculado, monto mínimo transaccional ($30.000 COP) y reglas de comisión dinámica (10% base → reducción automática a 5-7% para montos > $3M). Pendiente: validar cifras con la pasarela real contratada.
+3. **El Discurso de Venta (*Elevator Pitch*):** *(Resuelto — Ver Doc 16)*
+   - Tenemos un guion de ventas formal con pitch de 60 segundos, guion B2B para llamada en frío, y manejo de objeciones (confianza, precio, competencia). Pendiente: ensayar y refinar con prototipos reales de la plataforma.
 
 ---
 
 ## 3. ¿Qué NECESITAMOS AGREGAR? (Faltantes Críticos Próximos)
 
-1. **(Bloque 4) Arquitectura y Stack Tecnológico:**
-   - Es el gran elefante en la habitación. Para poder programar, el equipo debe definir en la reunión: ¿Se usará PostgreSQL? ¿El Backend será Node.js con NestJS o Express? ¿El Frontend será React/Next.js? Esto es crucial para estimar los costos reales de los servidores a futuro.
+1. **(Bloque 4) Arquitectura y Stack Tecnológico — Formalizar ADR propio:**
+   - Durante las sesiones de planificación ya se tomaron decisiones de stack (backend Spring Boot/Java, frontend Angular/TypeScript, PostgreSQL, Tailwind CSS, hosting Render/Vercel/Supabase, Cloudflare R2 para archivos, Spring Security para auth). Sin embargo, estas decisiones **no están formalmente documentadas como un ADR (Architecture Decision Record) en este repositorio**. Urge crear un documento que capture: contexto, opciones evaluadas, decisión tomada y consecuencias de cada elección tecnológica. Esto asegura que el equipo futuro entienda el *porqué* sin tener que reconstruirlo de memoria.
 2. **Mapeo Visual (Wireframes y UI/UX):**
-   - Antes de que Backend desarrolle la primera API, el Frontend Tech Lead (Eduardo) debe diseñar los "Mockups" o pantallas en Figma para que tú (CEO) los apruebes. La ERS es texto; necesitamos ver cómo lucirá la aplicación.
-3. **Plan de Reclutamiento de Beta-Testers (UAT):**
-   - ¿Quiénes serán nuestros primeros 10 usuarios "Conejillos de Indias"? Necesitamos un plan para contactarlos, un contrato de gratuidad temporal y métricas para evaluar si la plataforma funcionó para ellos antes de lanzarla al público abierto.
+   - Pendiente. Antes de que Backend desarrolle la primera API, el Frontend Tech Lead (Eduardo) debe diseñar los "Mockups" o pantallas en Figma para aprobación del CEO. La ERS es texto; necesitamos ver cómo lucirá la aplicación. Prioridad sugerida: IU-01 (Registro/Login), IU-02 (KYC), IU-03 (Dashboard) primero, luego las pantallas transaccionales.
+3. **Plan de Reclutamiento de Beta-Testers (UAT):** *(Resuelto — Ver Doc 21)*
+   - Ya contamos con un plan formal que define perfiles de beta-testers, criterios de selección, proceso de reclutamiento, contrato de gratuidad temporal, métricas de éxito, onboarding, ciclo de feedback y SLA de soporte. Pendiente: ejecutar el reclutamiento según el cronograma del documento.
