@@ -13,6 +13,8 @@
 | `ERS_NAP_IEEE830_v1.1.md` | Especificación de Requisitos de Software (IEEE 830). Versión actualizada con decisiones gerenciales. | **Alta** |
 | `ERS_NAP_IEEE830.md` | Especificación de Requisitos de Software. Versión base. | Alta |
 | `Strategic Optimization Of NAP-Backend.md` | Optimización estratégica del backend y hoja de ruta técnica. | Media |
+| `ADR_Stack_Tecnologico_NAP.md` | Decisiones de arquitectura del stack tecnológico (8 ADR). | **Alta** |
+| `DICCIONARIO_TERMINOS.md` | Diccionario completo de términos, siglas, códigos y nombres del proyecto (17 categorías). | **Alta** |
 | `ADR_Stack_Tecnologico_NAP.md` | Architecture Decision Record: decisiones de stack (Spring Boot, Angular, PostgreSQL, hosting, pagos, firma). | **Alta** |
 
 ## 📂 `Documentacion_Empresarial/` — Documentación de Negocio y Gestión
@@ -119,9 +121,9 @@
 
 | Categoría | Documentos |
 |---|---|
-| Raíz | 4 |
+| Raíz | 6 |
 | Documentación Empresarial | 21 |
 | Documentación Nothing Sense | 3 |
 | Documentos Legales | 12 |
 | Seguimiento | 11 (plantillas + instructivo + backlog + reportes individuales) |
-| **Total** | **51 documentos** |
+| **Total** | **52 documentos** |
