@@ -73,8 +73,34 @@ Con fundamento en el artículo 10 de la Ley 1258 de 2008, se crea una **Clase B 
 - Las acciones Clase B son intransferibles a terceros no fundadores y se convierten automáticamente en acciones ordinarias si su titular original las transfiere a una persona distinta de sus herederos forzosos.
 - Esta Clase B se extingue automáticamente si su titular original posee menos del quince por ciento (15%) del capital social total como resultado de dilución por rondas de inversión.
 
-## 7. Solución de Controversias
+## 7. Garantías y Protecciones para los Accionistas Fundadores
+
+### 7.1. Estabilidad en los Cargos Directivos
+- **Steven Quiñones** ocupará el cargo de Director de Tecnología (CTO) y no podrá ser removido de dicho cargo sin justa causa, entendiendo por justa causa: fraude informático, violación comprobada de confidencialidad, competencia desleal directa contra la Sociedad o abandono injustificado de funciones por más de quince (15) días hábiles consecutivos.
+- **Eduardo Morales** ocupará el cargo de Director de Desarrollo Frontend y Experiencia de Usuario y no podrá ser removido de dicho cargo sin las mismas causales descritas en el inciso anterior.
+- Si cualquiera de ellos es removido sin justa causa, se considerará un *Good Leaver* para todos los efectos del presente Acuerdo, y su *Vesting* se acelerará al 100% de forma inmediata.
+
+### 7.2. Autonomía Técnica y de Producto
+- El CTO (Steven Quiñones) tendrá la autoridad final sobre las decisiones de arquitectura tecnológica, lenguajes de programación, infraestructura cloud, seguridad informática y modelos de datos. Estas decisiones no podrán ser revertidas por la Asamblea o el Board sin su consentimiento expreso, salvo que impliquen un incremento de costos superior al treinta por ciento (30%) del presupuesto aprobado.
+- El Director de Frontend (Eduardo Morales) tendrá la autoridad final sobre las decisiones de experiencia de usuario (UX), diseño de interfaz (UI) y usabilidad de la plataforma. Estas decisiones no podrán ser revertidas por la Asamblea o el Board sin su consentimiento expreso, siempre que se mantengan dentro del presupuesto y cronograma aprobados.
+
+### 7.3. Aceleración de Vesting por Cambio de Control
+Si un tercero adquiere la totalidad o la mayoría del capital social de Nothing Sense S.A.S. (*Change of Control*), y dentro de los doce (12) meses siguientes a dicha adquisición el accionista fundador es desvinculado sin justa causa, la totalidad de sus acciones no consolidadas (no vestidas) se acelerarán y considerarán liberadas de forma inmediata e irrevocable. Esta cláusula aplica por igual a Fredinson Solano, Steven Quiñones y Eduardo Morales.
+
+### 7.4. Derechos de Información
+La Sociedad se obliga a entregar a cada accionista fundador, dentro de los primeros quince (15) días calendario de cada mes:
+- Un estado de resultados y flujo de caja del mes anterior.
+- Una actualización del *Cap Table* cuando haya modificaciones.
+- Dentro de los sesenta (60) días siguientes al cierre de cada año fiscal, los estados financieros auditados de la Sociedad.
+
+### 7.5. Protección Antidilución en Etapas Tempranas
+Durante los primeros tres (3) años contados a partir de la constitución de la S.A.S., si la Sociedad emite nuevas acciones por debajo del valor nominal actual por acción en una ronda de inversión calificada, los accionistas fundadores (Fredinson, Steven y Eduardo) tendrán derecho a una protección antidilución de *promedio ponderado amplio* (*Weighted Average Broad-Based*), de modo que su participación no se diluya desproporcionadamente frente a nuevos inversores. Esta protección se extingue al cumplirse el tercer año o al superar los 5.000 millones de COP en ingresos brutos anuales, lo que ocurra primero.
+
+### 7.6. Derecho de Venta Conjunta en OPI (*IPO Tag*)
+Si la Sociedad realiza una Oferta Pública Inicial (OPI) o *listing* en bolsa, todos los accionistas fundadores tendrán el derecho de vender su participación proporcional en dicha oferta, en las mismas condiciones de precio y prioridad que el accionista mayoritario.
+
+## 9. Solución de Controversias
 Cualquier controversia entre los accionistas derivada del presente Acuerdo se resolverá mediante un proceso de **amigable composición** ante un mediador designado de común acuerdo. Si no se logra acuerdo en treinta (30) días calendario, la controversia se resolverá ante la justicia ordinaria de la ciudad de Montería, Córdoba, Colombia.
 
-## 8. Vigencia
+## 10. Vigencia
 El presente Acuerdo rige a partir de la fecha de constitución de la S.A.S. y se mantendrá vigente hasta la disolución de la Sociedad o hasta que sea modificado por unanimidad de los accionistas fundadores.
