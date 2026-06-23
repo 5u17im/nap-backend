@@ -12,6 +12,11 @@
 - **Hoy haré:** Supervisar la estructura del repositorio y la consistencia documental tras los cambios al Diagnóstico Ejecutivo (doc 13) y la creación de la carpeta Seguimiento.
 - **Bloqueos:** Ninguno
 
+### 2026-06-22
+- **Ayer completé:** Supervisión de la estructura del repositorio. Aprobación de cambios al Acuerdo de Accionistas (jurisdicción flexible, armonización de cláusulas, Option Pool governance). Aprobación de la actualización del Modelo de Negocio v2.1 con lienzo CANVAS completo.
+- **Hoy haré:** Definir próximos pasos para la planeación estratégica de Nothing Sense como empresa y revisar borrador del landing page.
+- **Bloqueos:** Pendiente de Eduardo (wireframes) y Steven (Jira).
+
 ### 2026-06-21
 - **Ayer completé:** Revisión cruzada de los 20 documentos empresariales contra el Diagnóstico Ejecutivo. Validación del ADR de stack tecnológico. Aprobación del Plan de Reclutamiento de Beta Testers (doc 21).
 - **Hoy haré:** Organizar la estructura de reportes y actas del equipo para el Sprint 1.

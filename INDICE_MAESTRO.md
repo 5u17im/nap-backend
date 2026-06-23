@@ -24,7 +24,7 @@
 | 01 | `01_Manual_Roles_y_Funciones.md` | Roles, funciones y responsabilidades de los 3 cargos principales y auxiliares. | **Alta** |
 | 02 | `02_Ruta_Legalizacion_Empresarial.md` | Procedimiento paso a paso para formalizar la S.A.S. (Cámara de Comercio, SIC, DIAN). | **Alta** |
 | 03 | `03_Proyeccion_Estrategica_Anual.md` | Roadmap a 12 meses dividido en 4 trimestres (Q1-Q4). | Alta |
-| 04 | `04_Modelo_de_Negocio.md` | Arquitectura de ingresos: Split de Pagos, suscripción B2B, monetización. | **Alta** |
+| 04 | `04_Modelo_de_Negocio.md` | Modelo de negocio v2.1 con lienzo CANVAS completo (9 bloques), Value Proposition Canvas, pricing detallado, análisis competitivo, KPIs y proyección financiera. | **Alta** |
 | 05 | `05_Manual_Buenas_Practicas_y_Formatos_Dev.md` | Estándares Git, Pull Requests, Daily Standup, cierre de tareas, retrospectivas. | Alta |
 | 06 | `06_Manual_Operaciones_CEO.md` | Artefactos CEO (Cap Table, Cashflow, Matriz Riesgos), rituales semanales, resolución disputas. | **Alta** |
 | 07 | `07_Matriz_Gestion_de_Riesgos.md` | Riesgos técnicos (RT-01 a RT-06) y legales (RL-01 a RL-06) con mitigaciones. | **Alta** |
@@ -103,7 +103,7 @@
 
 | Archivo | Descripción | Prioridad |
 |---|---|---|
-| `01_Acuerdo_Accionistas_SAS.md` | Acuerdo de accionistas para cuando la S.A.S. se formalice. | Media |
+| `01_Acuerdo_Accionistas_SAS.md` | Acuerdo de accionistas v2 con 14 cláusulas completas (gobernanza, vesting, Clase B, disciplina, Option Pool, deadlock, disposiciones generales). | **Alta** |
 | `02_Contrato_Laboral_Fundadores_Fase3.md` | Contrato laboral para fase de rentabilidad (Tramo 2). | Baja |
 
 ---

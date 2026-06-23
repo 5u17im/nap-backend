@@ -8,7 +8,7 @@
 
 | Sprint | Fechas | Planning | Dailies | Review | Retro | Weekly Sync |
 |---|---|---|---|---|---|---|
-| Sprint 01 | [Fecha inicio — Fecha fin] | — | — | — | — | — |
+| Sprint 01 | 2026-06-18 — 2026-07-18 | — | 🔄 En curso | — | — | — |
 
 *Leyenda: ✅ Completado · 🔄 En curso · — Pendiente*
 
