@@ -3,22 +3,22 @@
 **Versión:** 1.0
 **Fecha:** Junio 2026
 
-Define los perfiles de cliente a los que Nothing Sense apunta con NAP y con servicios de desarrollo de software. El ICP se divide en tres segmentos, ordenados por prioridad según la estrategia de lanzamiento (Go-To-Market, ERS sección 2.7).
+Define los perfiles de cliente a los que Nothing Sense apunta con NAP (segmentos 1-3) y con servicios de desarrollo de software (segmento 4, independiente). El ICP se divide en cuatro segmentos; los primeros tres son prioridad para NAP y el cuarto corresponde a Nothing Sense como estudio, con comunicaciones y canales separados.
 
 ---
 
 ## Segmento 1: Empresa Contratante (B2B — Prioridad Alta)
 
 ### Descripción
-Empresas colombianas que contratan profesionales o proveedores de servicio de forma recurrente y necesitan formalizar esas relaciones sin los costos ni la burocracia de un departamento jurídico interno completo.
+Empresas colombianas que contratan profesionales o proveedores de servicio de forma recurrente (>3 contratistas al mes) y necesitan formalizar esas relaciones sin los costos ni la burocracia de un departamento jurídico interno completo.
 
 ### Características Demográficas
-- **Tamaño:** Pequeña a mediana empresa (5-100 empleados).
+- **Tamaño:** Pequeña empresa (5-30 empleados) para la fase MVP. Escalar a empresas de hasta 100 empleados en versiones posteriores.
 - **Ubicación:** Montería, Valledupar, Riohacha y principales ciudades de la Costa Caribe.
 - **Sectores:** Constructoras, ingeniería, consultoría, servicios profesionales, tecnología.
 
 ### Características Conductuales
-- Contratan freelancers, contratistas y proveedores al menos una vez al mes.
+- Contratan freelancers, contratistas y proveedores al menos 3 veces al mes.
 - Actualmente usan contratos en Word/PDF, correo electrónico y transferencias bancarias.
 - Han tenido problemas con incumplimientos, pagos no realizados o falta de soporte legal.
 - Les interesa reducir el tiempo administrativo de gestionar contratos.

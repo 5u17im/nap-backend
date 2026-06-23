@@ -29,11 +29,11 @@ NAP es una plataforma que formaliza cualquier relación contractual en Colombia:
 - Dejar de perseguir abogados para cada contrato.
 - Reducir el tiempo de formalización de días a minutos.
 - Tener un repositorio centralizado de contratos activos.
-- Pagar solo comisión por uso, sin costo fijo.
+- Pagar solo comisión por uso, sin costo de implementación.
 
 ### Modelo de negocio
 
-- Comisión por transacción: 10% (se reduce a 6-8% según monto).
+- Comisión por transacción: 10% (se reduce a 8% en contratos >$500.000 y a 6% en contratos >$2.000.000).
 - Suscripción B2B desde $150.000/mes.
 - Sin costo para empresas beta durante el piloto.
 

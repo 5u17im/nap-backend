@@ -35,9 +35,10 @@ Nothing Sense opera con confianza, responsabilidad y respeto. Este código estab
 
 ## 4. Propiedad Intelectual y Confidencialidad
 
-- Todo el código, documentación y propiedad intelectual creada para Nothing Sense pertenece a Nothing Sense S.A.S.
+- Todo el código, documentación y propiedad intelectual creada para Nothing Sense por **fundadores** pertenece a Nothing Sense S.A.S. según el Acuerdo de Accionistas.
+- Para **contratistas independientes** (desarrolladores, consultores), la cesión de derechos de autor debe formalizarse en un **contrato de cesión de derechos por separado**, por escrito. Sin ese contrato, el código podría pertenecer al contratista, no a la empresa.
 - No compartir información confidencial de la empresa, clientes o aliados con terceros sin autorización.
-- Esta obligación se mantiene incluso después de dejar la empresa.
+- Esta obligación de confidencialidad se mantiene por **2 años** después de la desvinculación de la empresa.
 
 ---
 
@@ -84,7 +85,7 @@ Nothing Sense opera con confianza, responsabilidad y respeto. Este código estab
 El incumplimiento de este código puede resultar en:
 - Amonestación verbal.
 - Amonestación escrita.
-- Suspensión temporal (con pérdida de derechos de voto, según Acuerdo de Accionistas).
+- Suspensión temporal de actividades (según lo pactado en el Acuerdo de Accionistas).
 - Separación de la empresa (aplica cláusula de Bad Leaver si aplica).
 
-La gravedad de la sanción depende de la falta y se decide entre los fundadores.
+La gravedad de la sanción depende de la falta y se decide entre los fundadores. Las sanciones que afecten derechos de voto o participación solo pueden aplicarse si están expresamente previstas en los estatutos sociales o en el Acuerdo de Accionistas.

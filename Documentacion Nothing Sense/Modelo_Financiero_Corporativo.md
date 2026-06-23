@@ -37,9 +37,10 @@
 |---|---|
 | Contador (outsourcing) | $150.000 |
 | Abogada (outsourcing) | $150.000 |
+| Conectividad, planes de datos y equipos | $50.000 |
 | Marketing / Redes | $0 (gestión directa) |
 | Imprevistos | $100.000 |
-| **Subtotal administrativo** | **$400.000** |
+| **Subtotal administrativo** | **$450.000** |
 
 > *Costos de contador y abogada pueden aumentar con el tiempo cuando se requieran servicios más complejos.*
 
@@ -48,8 +49,8 @@
 | Rubro | Valor |
 |---|---|
 | **Costos infraestructura** | $0 - $55 USD |
-| **Costos administrativos** | $400.000 COP |
-| **Costo total mensual estimado** | **~$400.000 COP** (en beta gratuita) |
+| **Costos administrativos** | $450.000 COP |
+| **Costo total mensual estimado** | **~$450.000 COP** (en beta gratuita) |
 
 ---
 
@@ -67,7 +68,8 @@
 |---|---|---|
 | **Beta (sin ingresos)** | $0 | Q3 2026 |
 | **Lanzamiento público** | $200.000 - $1.000.000 (comisiones + suscripciones) | Q4 2026 |
-| **Punto de equilibrio** | ~$400.000/mes (cubre gastos operativos) | ~Q1 2027 |
+| **Punto de equilibrio (sin salarios)** | ~$450.000/mes (cubre gastos operativos) | ~Q1 2027 |
+| **Punto de equilibrio (con salarios mínimos)** | ~$3.000.000 - $4.000.000/mes | ~Q2 2027 |
 
 ---
 
@@ -84,7 +86,8 @@
 
 ## 5. Notas y Riesgos
 
-1. **Sin salarios:** El equipo no recibe remuneración hasta que la empresa genere ingresos suficientes. Esto es un riesgo de retención si el MVP se alarga.
+1. **Sin salarios:** El equipo no recibe remuneración hasta que la empresa genere ingresos suficientes. Esto es un riesgo de retención si el MVP se alarga más de 9-12 meses. **Trigger sugerido:** si en Q1 2027 no hay ingresos recurrentes, evaluar financiamiento externo o reducir alcance del equipo.
 2. **Costos en USD:** La infraestructura (Render, Supabase, R2) se paga en dólares. El TRM afecta el costo real en COP.
 3. **Contador y abogada:** Son costos fijos incluso sin ingresos. Son necesarios para cumplimiento legal.
-4. **Fondo de emergencia:** Se recomienda mantener un colchón de 3 meses de gastos operativos (~$1.2M COP) antes de cualquier gasto no esencial.
+4. **Fondo de emergencia:** Se recomienda mantener un colchón de 3 meses de gastos operativos (~$1.35M COP) antes de cualquier gasto no esencial.
+5. **Break-even real:** El punto de equilibrio sin salarios (~$450K/mes) es alcanzable temprano, pero no es sostenible. El break-even realista con salarios mínimos para los fundadores está entre $3M y $4M mensuales.

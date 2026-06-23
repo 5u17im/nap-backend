@@ -44,7 +44,7 @@ El equipo actual asume el riesgo inicial (*Sweat Equity*) y es el motor del desa
 
 ### Anillo 2: Consultores Externos y Servicios Bajo Demanda (Outsourcing)
 Para evitar la carga prestacional prematura y mantener el modelo *Lean*, se han perfilado recursos de confianza profesional (círculo cercano del CEO) que prestarán servicios por honorarios u horas, activados estratégicamente ante hitos regulatorios o de despliegue comercial:
-- **Asesoría Legal y *Compliance* (Abogada externa - Ex pareja):** Revisión de Contratos Comerciales, Política de Datos (Ley 1581), elaboración de Términos y Condiciones, y formalización societaria ante Cámara de Comercio.
+- **Asesoría Legal y *Compliance* (Abogada externa - Amiga):** Revisión de Contratos Comerciales, Política de Datos (Ley 1581), elaboración de Términos y Condiciones, y formalización societaria ante Cámara de Comercio.
 - **Asesoría Contable y Financiera (Contador externo - Amigo):** Estructuración tributaria ante la DIAN, vinculación técnica de facturación electrónica y liquidación de impuestos corporativos.
 - **Dirección de Marketing y Estrategia B2B (Administradora de Empresas):** Planificación de campañas para el lanzamiento C2C, relacionamiento corporativo y estrategias de conversión comercial.
 
@@ -58,12 +58,14 @@ La siguiente EDT es un marco genérico aplicable a cualquier proyecto de softwar
 | **WP-2.0** | **Diseño de Experiencia de Usuario (UX/UI)** | Frontend Lead | 3 |
 | **WP-3.0** | **Core de Negocio (IAM, Roles, Auth)** | Backend Lead | 4 |
 | **WP-4.0** | **Motor Transaccional (Lógica de negocio principal)** | Backend + Frontend | 5 |
-| **WP-5.0** | **Integraciones Externas (Pagos, APIs, servicios)** | Líder Técnico | 3 |
+| **WP-5.1** | **Integración de Pagos (Split de Pagos / Nequi)** | Líder Técnico | 3 |
+| **WP-5.2** | **Integración de Firma Electrónica y DIAN** | Líder Técnico | 2 |
 | **WP-6.0** | **Cumplimiento Legal y Documentación** | Consultores / Gerente | 2 |
 | **WP-7.0** | **Pruebas de Integración (QA) y UAT** | Todo el equipo | 3 |
-| **WP-8.0** | **Go-Live, Marketing y Despliegue Producción** | Equipo + Consultores | 2 |
+| **WP-8.0** | **Buffer de holgura (imprevistos, bugs críticos, ajustes)** | Todo el equipo | 2 |
+| **WP-9.0** | **Go-Live, Marketing y Despliegue Producción** | Equipo + Consultores | 2 |
 
-> *Los WPs técnicos (2, 3 y 4) se ejecutan en metodologías iterativas (Sprints) permitiendo el paralelismo entre Frontend y Backend mediante diseño de interfaces por contratos (API Contracts). Las duraciones y responsables se ajustan por proyecto.*
+> *Los WPs técnicos (2, 3 y 4) se ejecutan en metodologías iterativas (Sprints) permitiendo el paralelismo entre Frontend y Backend mediante diseño de interfaces por contratos (API Contracts). Las duraciones y responsables se ajustan por proyecto. WP-5.0 se dividió en WP-5.1 (pagos) y WP-5.2 (firma+DIAN) dada la complejidad de cada integración. WP-8.0 es buffer para contingencias.*
 
 ## 4. Repositorio Documental Exigido (Activos de los Procesos de la Organización - OPA)
 

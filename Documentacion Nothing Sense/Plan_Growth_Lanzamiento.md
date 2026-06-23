@@ -28,6 +28,8 @@ Basada en ERS sección 2.7:
 
 **Responsable:** Fredinson (CEO).
 
+> **Nota:** El outreach del CEO debe quedar documentado en un script compartido (ver sección 6) para que al menos dos personas del equipo puedan ejecutarlo si es necesario.
+
 ### Oferta — Profesionales / Contratistas
 
 | Táctica | Canal | Esfuerzo | Impacto estimado |
@@ -50,7 +52,22 @@ Basada en ERS sección 2.7:
 
 ---
 
-## 3. Presupuesto de Growth
+## 3. Estrategia de Contenido para Redes
+
+Sin presupuesto de pauta digital, el contenido orgánico es el único canal para construir audiencia antes del lanzamiento.
+
+| Red | Tipo de contenido | Frecuencia | Responsable |
+|---|---|---|---|
+| LinkedIn | Posts B2B: casos de uso, pensamiento técnico, cultura de trabajo | 2/semana | Fredinson / Steven |
+| Instagram | Detrás de escena: equipo trabajando, snippets de código, humor del nombre "Nothing Sense" | 2/semana | Eduardo |
+| Twitter/X | Hilos técnicos cortos, aprendizajes del desarrollo | 1/semana | Steven |
+
+**Inicio:** Desde ahora (no esperar al lanzamiento).
+**Meta:** 5 publicaciones por semana combinadas entre los 3 fundadores.
+
+---
+
+## 4. Presupuesto de Growth
 
 | Concepto | Costo |
 |---|---|
@@ -63,20 +80,30 @@ Todo bootstrap. Sin inversión en pauta digital hasta validar tracción orgánic
 
 ---
 
-## 4. Métricas de Growth
+## 5. Métricas de Growth
+
+### Adquisición (top of funnel)
 
 | Métrica | Meta Beta (Q3) | Meta Público (Q4) |
 |---|---|---|
 | Empresas beta activas | 5 | 20 |
 | Profesionales registrados | 20 | 100 |
 | Usuarios totales (individuos) | 50 | 500 |
-| Transacciones completadas | 10 | 100 |
 | Tasa de conversión landing → registro | — | >5% |
+
+### Activación y Retención (producto)
+
+| Métrica | Meta Beta (Q3) | Meta Público (Q4) |
+|---|---|---|
+| % de registros que completan KYC | >50% | >60% |
+| % de registros que crean o reciben un primer contrato | — | >30% |
+| % que completan una transacción (aha moment) | — | >15% |
+| Transacciones completadas | 10 | 100 |
 | Tiempo desde registro hasta primera transacción | — | <7 días |
 
 ---
 
-## 5. Canales de Adquisición Priorizados
+## 6. Canales de Adquisición Priorizados
 
 1. **WhatsApp + LinkedIn** — Outreach personalizado del CEO a empresas.
 2. **Orgánico (boca a boca)** — El producto mismo debe generar tracción.
@@ -84,3 +111,17 @@ Todo bootstrap. Sin inversión en pauta digital hasta validar tracción orgánic
 4. **Referidos** — Programa formal cuando haya tracción.
 
 Sin pauta digital hasta Q4 2026 (si hay presupuesto).
+
+---
+
+## 7. Script de Outreach B2B
+
+Documentar el guion de llamada/mensaje para que cualquier miembro del equipo pueda ejecutar la consecución de empresas beta. Incluir:
+
+1. **Saludo y presentación** (10 seg)
+2. **Problema que resuelve NAP** (20 seg)
+3. **Propuesta de valor** (15 seg)
+4. **Oferta beta gratuita** (10 seg)
+5. **Cierre y llamado a la acción** (5 seg)
+
+*[Pendiente: Fredinson redacta el script y lo comparte con el equipo]*

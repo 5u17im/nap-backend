@@ -59,10 +59,11 @@
 | `Landing_Page_Nothing_Sense.md` | Brief completo para landing page: copy de cada sección, especificaciones técnicas (responsive, colores, tipografía, SEO, rendimiento) para desarrollo en Angular + Tailwind. | **Alta** |
 | `Brief_General_NS.md` | Brief general para CEO/Scrum: resumen de toda la documentación corporativa, acciones requeridas del CEO y de Eduardo (Frontend). | **Alta** |
 | `OKRs_Q3_Q4_2026.md` | OKRs: 6 objetivos y 16 resultados clave para Q3-Q4 2026. | Alta |
-| `One_Pager_B2B_Nothing_Sense.md` | Resumen ejecutivo de 1 página para entregar a empresas y aliados. | Alta |
-| `Modelo_Financiero_Corporativo.md` | Costos de constitución, operación mensual, runway y escenarios financieros de Nothing Sense como empresa. | Alta |
-| `Plan_Growth_Lanzamiento.md` | Plan de growth y lanzamiento: tácticas B2B, oferta y C2C, presupuesto, métricas. | Alta |
-| `Codigo_Conducta_Politicas_Internas.md` | Código de conducta y políticas internas: comunicación, compromiso, confidencialidad, conflictos. | Alta |
+| `One_Pager_B2B_Nothing_Sense.md` | Resumen ejecutivo de 1 página para entregar a empresas y aliados. | **Alta** |
+| `Modelo_Financiero_Corporativo.md` | Costos de constitución, operación mensual, runway y escenarios financieros de Nothing Sense como empresa. | **Alta** |
+| `Plan_Growth_Lanzamiento.md` | Plan de growth y lanzamiento: tácticas B2B, oferta y C2C, contenido redes, métricas activación, outreach script. | Alta |
+| `Codigo_Conducta_Politicas_Internas.md` | Código de conducta y políticas internas: trabajo remoto, PI, confidencialidad, conflictos. | Alta |
+| `Formulario_Especificaciones_Eduardo.md` | Formulario para que Eduardo complete: logo, paleta, tipografía, iconos y specs técnicas de la landing page. | Alta |
 
 ## 📂 `Documentos_Legales/` — Contratos y Acuerdos Legales
 
@@ -136,7 +137,7 @@
 |---|---|
 | Raíz | 6 |
 | Documentación Empresarial | 22 |
-| Documentación Nothing Sense | 12 |
+| Documentación Nothing Sense | 13 |
 | Documentos Legales | 12 |
 | Seguimiento | 11 (plantillas + instructivo + backlog + reportes individuales) |
-| **Total** | **62 documentos** |
+| **Total** | **63 documentos** |
