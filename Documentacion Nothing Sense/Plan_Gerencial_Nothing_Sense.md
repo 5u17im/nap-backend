@@ -1,7 +1,7 @@
 # Plan de Gestión Directiva y Operacional (Project Management Plan)
 
 **Entidad Promotora:** Nothing Sense (S.A.S. en Formación)
-**Iniciativa Estratégica:** Plataforma NAP
+**Iniciativa Estratégica:** Según proyecto (actual: Plataforma NAP)
 **Autor / Aprobador:** Fredinson Solano Rois (CEO / Ing. Civil, Especialista y Magíster en Gerencia de Proyectos)
 **Co-Fundador Técnico:** Steven Ricardo Quiñones (Ing. de Sistemas)
 
@@ -48,22 +48,22 @@ Para evitar la carga prestacional prematura y mantener el modelo *Lean*, se han 
 - **Asesoría Contable y Financiera (Contador externo - Amigo):** Estructuración tributaria ante la DIAN, vinculación técnica de facturación electrónica y liquidación de impuestos corporativos.
 - **Dirección de Marketing y Estrategia B2B (Administradora de Empresas):** Planificación de campañas para el lanzamiento C2C, relacionamiento corporativo y estrategias de conversión comercial.
 
-## 3. Estructura de Desglose de Trabajo (EDT / WBS) y Cronograma Base
+## 3. Estructura de Desglose de Trabajo (EDT / WBS) — Marco Genérico
 
-La ejecución técnica y comercial de NAP se divide en paquetes de trabajo (*Work Packages*) con duraciones estimadas bajo la técnica de juicio de expertos:
+La siguiente EDT es un marco genérico aplicable a cualquier proyecto de software que desarrolle Nothing Sense. Los paquetes de trabajo (Work Packages) se ajustan según la naturaleza y alcance de cada proyecto. A continuación se presenta la EDT base con el proyecto actual (NAP) como ejemplo.
 
 | Código | Paquete de Trabajo (Work Package) | Responsable | Duración (Semanas) |
 | :--- | :--- | :--- | :--- |
-| **WP-1.0** | **Planeación, Arquitectura y *Setup* Inicial** | CEO / Backend Lead | 2 |
+| **WP-1.0** | **Planeación, Arquitectura y Setup Inicial** | Líder Técnico / Gerente | 2 |
 | **WP-2.0** | **Diseño de Experiencia de Usuario (UX/UI)** | Frontend Lead | 3 |
-| **WP-3.0** | **Core de Negocio (IAM, Roles, Auth JWT)** | Backend Lead | 4 |
-| **WP-4.0** | **Motor Transaccional (Contratos y Firmas)** | Back + Front | 5 |
-| **WP-5.0** | **Integración Financiera (Split Pagos / Nequi)**| Backend Lead | 3 |
-| **WP-6.0** | **Cumplimiento Legal y T&C** | Consultora Legal / CEO | 2 |
-| **WP-7.0** | **Pruebas de Integración (QA) y UAT** | Todo el Equipo Core | 3 |
-| **WP-8.0** | **Go-Live, Marketing y Despliegue Producción** | Equipo Core + Marketing | 2 |
+| **WP-3.0** | **Core de Negocio (IAM, Roles, Auth)** | Backend Lead | 4 |
+| **WP-4.0** | **Motor Transaccional (Lógica de negocio principal)** | Backend + Frontend | 5 |
+| **WP-5.0** | **Integraciones Externas (Pagos, APIs, servicios)** | Líder Técnico | 3 |
+| **WP-6.0** | **Cumplimiento Legal y Documentación** | Consultores / Gerente | 2 |
+| **WP-7.0** | **Pruebas de Integración (QA) y UAT** | Todo el equipo | 3 |
+| **WP-8.0** | **Go-Live, Marketing y Despliegue Producción** | Equipo + Consultores | 2 |
 
-> *Nota Gerencial: Los WPs técnicos (2, 3 y 4) se ejecutarán en metodologías iterativas (Sprints) permitiendo el paralelismo entre Frontend y Backend mediante diseño de interfaces por contratos (API Contracts).*
+> *Los WPs técnicos (2, 3 y 4) se ejecutan en metodologías iterativas (Sprints) permitiendo el paralelismo entre Frontend y Backend mediante diseño de interfaces por contratos (API Contracts). Las duraciones y responsables se ajustan por proyecto.*
 
 ## 4. Repositorio Documental Exigido (Activos de los Procesos de la Organización - OPA)
 

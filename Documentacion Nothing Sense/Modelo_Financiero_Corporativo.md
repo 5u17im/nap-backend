@@ -35,20 +35,21 @@
 
 | Concepto | Mensual |
 |---|---|
-| Contador (outsourcing) | $200.000 - $400.000 |
-| Abogada (outsourcing) | $200.000 - $300.000 (retención) + honorarios por hora |
+| Contador (outsourcing) | $150.000 |
+| Abogada (outsourcing) | $150.000 |
 | Marketing / Redes | $0 (gestión directa) |
-| Transporte y reuniones | $100.000 |
 | Imprevistos | $100.000 |
-| **Subtotal administrativo** | **$600.000 - $900.000** |
+| **Subtotal administrativo** | **$400.000** |
+
+> *Costos de contador y abogada pueden aumentar con el tiempo cuando se requieran servicios más complejos.*
 
 ### Proyección de caja mensual (beta)
 
 | Rubro | Valor |
 |---|---|
 | **Costos infraestructura** | $0 - $55 USD |
-| **Costos administrativos** | $600.000 - $900.000 COP |
-| **Costo total mensual estimado** | **~$800.000 COP** (en beta gratuita) |
+| **Costos administrativos** | $400.000 COP |
+| **Costo total mensual estimado** | **~$400.000 COP** (en beta gratuita) |
 
 ---
 
@@ -66,7 +67,7 @@
 |---|---|---|
 | **Beta (sin ingresos)** | $0 | Q3 2026 |
 | **Lanzamiento público** | $200.000 - $1.000.000 (comisiones + suscripciones) | Q4 2026 |
-| **Punto de equilibrio** | ~$800.000/mes (cubre gastos operativos) | ~Q1 2027 |
+| **Punto de equilibrio** | ~$400.000/mes (cubre gastos operativos) | ~Q1 2027 |
 
 ---
 
@@ -86,4 +87,4 @@
 1. **Sin salarios:** El equipo no recibe remuneración hasta que la empresa genere ingresos suficientes. Esto es un riesgo de retención si el MVP se alarga.
 2. **Costos en USD:** La infraestructura (Render, Supabase, R2) se paga en dólares. El TRM afecta el costo real en COP.
 3. **Contador y abogada:** Son costos fijos incluso sin ingresos. Son necesarios para cumplimiento legal.
-4. **Fondo de emergencia:** Se recomienda mantener un colchón de 3 meses de gastos operativos (~$2.4M COP) antes de cualquier gasto no esencial.
+4. **Fondo de emergencia:** Se recomienda mantener un colchón de 3 meses de gastos operativos (~$1.2M COP) antes de cualquier gasto no esencial.
