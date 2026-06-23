@@ -118,7 +118,7 @@
 | Archivo | Descripción | Prioridad |
 |---|---|---|
 | `01_Acuerdo_Accionistas_SAS.md` | Acuerdo de accionistas v2 con 14 cláusulas completas (gobernanza, vesting, Clase B, disciplina, Option Pool, deadlock, disposiciones generales). | **Alta** |
-| `02_Contrato_Laboral_Fundadores_Fase3.md` | Contrato laboral para fase de rentabilidad (Tramo 2). | Baja |
+| `02_Contrato_Laboral_Fundadores_Fase3.md` | Contrato laboral v2.0 para Fase 3 (rentabilidad): salario fijo, prestaciones, no competencia con compensación, cesión PI, trigger de activación. | Media |
 
 ---
 
