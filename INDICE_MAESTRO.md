@@ -48,11 +48,14 @@
 
 | Archivo | Descripción | Prioridad |
 |---|---|---|
-| `Plan_Gerencial_Nothing_Sense.md` | Plan maestro + Misión, Visión, Valores y Propósito corporativo. EDT (WBS), documentación requerida. | **Alta** |
+| `Plan_Gerencial_Nothing_Sense.md` | Plan maestro + Misión, Visión, Valores y Propósito corporativo. EDT (WBS) genérica para cualquier proyecto. | **Alta** |
 | `Estructura_Organizacional.md` | Cadena de mando CEO → Backend Lead → Frontend Lead, células operativas, matrices de escalamiento. | **Alta** |
 | `Acuerdo_Confidencialidad_Participacion.md` | NDA + Sweat Equity + cesión de propiedad intelectual. | **Alta** |
 | `Manual_Marca_Nothing_Sense.md` | Manual de Marca: identidad visual, tono de voz, paleta de colores, aplicaciones y lo que NO somos. | **Alta** |
 | `Pitch_Deck_Nothing_Sense.md` | Pitch Deck de 10 diapositivas: problema, solución, flujo, modelo de negocio, mercado, competencia, equipo, estado, cierre. | **Alta** |
+| `Landing_Page_Nothing_Sense.md` | Brief completo para landing page: copy de cada sección, especificaciones técnicas (responsive, colores, tipografía, SEO, rendimiento) para desarrollo en Angular + Tailwind. | **Alta** |
+| `Brief_General_NS.md` | Brief general para CEO/Scrum: resumen de toda la documentación corporativa, acciones requeridas del CEO y de Eduardo (Frontend). | **Alta** |
+| `Retroalimentacion_Equipo_Agentico.md` | Feedback consolidado del equipo agéntico sobre los 11 documentos corporativos, con observaciones y prioridades. | **Alta** |
 | `Landing_Page_Nothing_Sense.md` | Brief completo para landing page: copy de cada sección, especificaciones técnicas (responsive, colores, tipografía, SEO, rendimiento) para desarrollo en Angular + Tailwind. | **Alta** |
 | `Brief_General_NS.md` | Brief general para CEO/Scrum: resumen de toda la documentación corporativa, acciones requeridas del CEO y de Eduardo (Frontend). | **Alta** |
 | `OKRs_Q3_Q4_2026.md` | OKRs: 6 objetivos y 16 resultados clave para Q3-Q4 2026. | Alta |
@@ -133,7 +136,7 @@
 |---|---|
 | Raíz | 6 |
 | Documentación Empresarial | 22 |
-| Documentación Nothing Sense | 11 |
+| Documentación Nothing Sense | 12 |
 | Documentos Legales | 12 |
 | Seguimiento | 11 (plantillas + instructivo + backlog + reportes individuales) |
-| **Total** | **61 documentos** |
+| **Total** | **62 documentos** |
