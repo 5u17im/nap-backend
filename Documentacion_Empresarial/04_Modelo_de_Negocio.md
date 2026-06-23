@@ -81,7 +81,7 @@ NAP ofrece protección jurídica automatizada y resguardo financiero (*Escrow*) 
 
 ## 6. Estructura de Costos
 
-- **Costos fijos operativos:** Infraestructura cloud (servidores, base de datos, almacenamiento), dominio web, herramientas SaaS (Jira, Slack). Estimación MVP: ~$0/mes en planes gratuitos (Render, Supabase, Vercel). Escalamiento a producción: ~$50-150/mes en planes pagos según volumen.
+- **Costos fijos operativos:** Infraestructura cloud (servidores, base de datos, almacenamiento), dominio web, herramientas SaaS (Jira, Slack). Estimación MVP en etapa beta: ~$0/mes en planes gratuitos (Render, Supabase, Vercel, Cloudflare R2) — con limitaciones como *cold starts* y almacenamiento reducido. Escalamiento a producción con usuarios reales: ~$50-150/mes en planes pagos según volumen.
 - **Costos variables:** Comisiones de la pasarela de pago (~3% + costo fijo por transacción), pauta publicitaria digital (CAC), honorarios bajo demanda (abogada, contador, marketing), costos de APIs de firma electrónica y facturación DIAN.
 - **Costos de personal:** Fundadores sin salario en fases iniciales; salarios progresivos post-lanzamiento.
 - **Provisiones:** Fondo para reembolsos por disputas y contracargos.
@@ -169,7 +169,7 @@ Métricas a definir por el equipo en sesión de planeación:
 
 ## 12. Proyección Financiera
 
-**Supuestos:** Equipo de 3 fundadores. Comisión promedio referencial 10%. Pasarela cobra ~3% + costo fijo por transacción. Infraestructura MVP en planes gratuitos (~$0/mes).
+**Supuestos:** Equipo de 3 fundadores. Comisión promedio referencial 10%. Pasarela cobra ~3% + costo fijo por transacción. Infraestructura MVP en etapa beta usando planes gratuitos (~$0/mes con limitaciones de *cold starts* y almacenamiento reducido).
 
 | Concepto | Mes 1-3 | Mes 4-6 | Mes 7-9 | Mes 10-12 |
 |---|---|---|---|---|
