@@ -42,18 +42,16 @@
 | 19 | `19_Cap_Table_y_Esquema_Accionario.md` | Tabla de capitalización (45/35/10/10), Vesting 4 años, Cláusulas protectoras. | **Alta** |
 | 20 | `20_Proyeccion_Financiera_y_Salarial.md` | Gastos preoperativos, OPEX mensual, punto de equilibrio, política salarial por tramos. | **Alta** |
 | 21 | `21_Plan_Reclutamiento_Beta_Testers.md` | Plan UAT: perfiles, selección, reclutamiento, métricas, onboarding, SLA. | Alta |
+| 22 | `22_ICP_Perfil_Cliente_Ideal.md` | Perfil de Cliente Ideal segmentado: B2B (empresas), C2C (individuos), oferta (profesionales) y desarrollo software. | Alta |
 
 ## 📂 `Documentacion Nothing Sense/` — Documentos Gerenciales Fundacionales
 
 | Archivo | Descripción | Prioridad |
 |---|---|---|
-| Archivo | Descripción | Prioridad |
-|---|---|---|---|
 | `Plan_Gerencial_Nothing_Sense.md` | Plan maestro + Misión, Visión, Valores y Propósito corporativo. EDT (WBS), documentación requerida. | **Alta** |
 | `Estructura_Organizacional.md` | Cadena de mando CEO → Backend Lead → Frontend Lead, células operativas, matrices de escalamiento. | **Alta** |
 | `Acuerdo_Confidencialidad_Participacion.md` | NDA + Sweat Equity + cesión de propiedad intelectual. | **Alta** |
 | `Manual_Marca_Nothing_Sense.md` | Manual de Marca: identidad visual, tono de voz, paleta de colores, aplicaciones y lo que NO somos. | **Alta** |
-| `ICP_Perfil_Cliente_Ideal.md` | Perfil de Cliente Ideal segmentado: B2B (empresas), C2C (individuos), oferta (profesionales) y desarrollo software. | **Alta** |
 | `Pitch_Deck_Nothing_Sense.md` | Pitch Deck de 10 diapositivas: problema, solución, flujo, modelo de negocio, mercado, competencia, equipo, estado, cierre. | **Alta** |
 | `Landing_Page_Nothing_Sense.md` | Brief completo para landing page: copy de cada sección, especificaciones técnicas (responsive, colores, tipografía, SEO, rendimiento) para desarrollo en Angular + Tailwind. | **Alta** |
 | `Brief_General_NS.md` | Brief general para CEO/Scrum: resumen de toda la documentación corporativa, acciones requeridas del CEO y de Eduardo (Frontend). | **Alta** |
@@ -134,8 +132,8 @@
 | Categoría | Documentos |
 |---|---|
 | Raíz | 6 |
-| Documentación Empresarial | 21 |
-| Documentación Nothing Sense | 12 |
+| Documentación Empresarial | 22 |
+| Documentación Nothing Sense | 11 |
 | Documentos Legales | 12 |
 | Seguimiento | 11 (plantillas + instructivo + backlog + reportes individuales) |
 | **Total** | **61 documentos** |

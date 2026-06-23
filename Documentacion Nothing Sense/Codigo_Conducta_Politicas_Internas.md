@@ -12,13 +12,15 @@ Nothing Sense opera con confianza, responsabilidad y respeto. Este código estab
 
 ---
 
-## 2. Comunicación
+## 2. Trabajo Remoto
 
-- **Canales oficiales:** WhatsApp (diario), Google Meet (semanales), repositorio GitHub (código).
+- **Modalidad 100% remota.** Cada miembro trabaja desde su propio ordenador y ubicación. No hay oficina física.
+- **Reuniones también remotas** a través de Google Meet. No hay reuniones presenciales obligatorias.
+- **Canales oficiales:** WhatsApp (comunicación diaria), Google Meet (reuniones), repositorio GitHub (código).
 - **Tono:** Directo, respetuoso, constructivo. No se toleran gritos, insultos ni humillaciones.
-- **Horario laboral de referencia:** Lunes a viernes, 8:00 AM - 6:00 PM (cada quien organiza su tiempo). No se exige disponibilidad fuera de ese horario.
-- **Reuniones:** Llegar puntual. Si no se puede asistir, avisar con mínimo 1 hora de antelación.
-- **Reportes diarios:** Obligatorios para todos los miembros del equipo. Se envían antes de las 8:00 AM.
+- **Horario:** Flexible. Cada quien organiza su tiempo. Lo importante son los entregables, no las horas sentado.
+- **Puntualidad en reuniones:** Llegar a tiempo. Si no se puede asistir, avisar con mínimo 1 hora de antelación.
+- **Reportes diarios:** Obligatorios para todos los miembros del equipo. Se envían antes del mediodía (12:00 PM) o antes de comenzar la jornada laboral, lo que ocurra primero.
 
 ---
 
