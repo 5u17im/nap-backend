@@ -47,9 +47,21 @@
 
 | Archivo | Descripción | Prioridad |
 |---|---|---|
-| `Plan_Gerencial_Nothing_Sense.md` | Plan maestro: EDT (WBS), lista de documentación requerida, exigencias al equipo. | **Alta** |
+| Archivo | Descripción | Prioridad |
+|---|---|---|---|
+| `Plan_Gerencial_Nothing_Sense.md` | Plan maestro + Misión, Visión, Valores y Propósito corporativo. EDT (WBS), documentación requerida. | **Alta** |
 | `Estructura_Organizacional.md` | Cadena de mando CEO → Backend Lead → Frontend Lead, células operativas, matrices de escalamiento. | **Alta** |
 | `Acuerdo_Confidencialidad_Participacion.md` | NDA + Sweat Equity + cesión de propiedad intelectual. | **Alta** |
+| `Manual_Marca_Nothing_Sense.md` | Manual de Marca: identidad visual, tono de voz, paleta de colores, aplicaciones y lo que NO somos. | **Alta** |
+| `ICP_Perfil_Cliente_Ideal.md` | Perfil de Cliente Ideal segmentado: B2B (empresas), C2C (individuos), oferta (profesionales) y desarrollo software. | **Alta** |
+| `Pitch_Deck_Nothing_Sense.md` | Pitch Deck de 10 diapositivas: problema, solución, flujo, modelo de negocio, mercado, competencia, equipo, estado, cierre. | **Alta** |
+| `Landing_Page_Nothing_Sense.md` | Brief completo para landing page: copy de cada sección, especificaciones técnicas (responsive, colores, tipografía, SEO, rendimiento) para desarrollo en Angular + Tailwind. | **Alta** |
+| `Brief_General_NS.md` | Brief general para CEO/Scrum: resumen de toda la documentación corporativa, acciones requeridas del CEO y de Eduardo (Frontend). | **Alta** |
+| `OKRs_Q3_Q4_2026.md` | OKRs: 6 objetivos y 16 resultados clave para Q3-Q4 2026. | Alta |
+| `One_Pager_B2B_Nothing_Sense.md` | Resumen ejecutivo de 1 página para entregar a empresas y aliados. | Alta |
+| `Modelo_Financiero_Corporativo.md` | Costos de constitución, operación mensual, runway y escenarios financieros de Nothing Sense como empresa. | Alta |
+| `Plan_Growth_Lanzamiento.md` | Plan de growth y lanzamiento: tácticas B2B, oferta y C2C, presupuesto, métricas. | Alta |
+| `Codigo_Conducta_Politicas_Internas.md` | Código de conducta y políticas internas: comunicación, compromiso, confidencialidad, conflictos. | Alta |
 
 ## 📂 `Documentos_Legales/` — Contratos y Acuerdos Legales
 
@@ -123,7 +135,7 @@
 |---|---|
 | Raíz | 6 |
 | Documentación Empresarial | 21 |
-| Documentación Nothing Sense | 3 |
+| Documentación Nothing Sense | 12 |
 | Documentos Legales | 12 |
 | Seguimiento | 11 (plantillas + instructivo + backlog + reportes individuales) |
-| **Total** | **52 documentos** |
+| **Total** | **61 documentos** |

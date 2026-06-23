@@ -7,6 +7,26 @@
 
 ---
 
+## 0. Identidad Corporativa
+
+### Propósito
+Crear software con identidad propia —donde cada línea de código refleje quiénes somos— mientras crecemos como profesionales y generamos ingresos sostenibles.
+
+### Misión
+Desarrollar soluciones de software que resuelvan problemas reales del contexto colombiano, con altos estándares de calidad técnica y diseño, dando a conocer nuestra autoría y construyendo una fuente de ingresos estable para el equipo.
+
+### Visión
+Ser un estudio de desarrollo de software reconocido en Colombia por la calidad de sus productos, la autoría propia de sus soluciones y el crecimiento continuo de sus miembros. Nothing Sense no es solo NAP; es el primero de muchos proyectos con nuestra firma.
+
+### Valores
+- **Autoría y orgullo:** No somos solo ejecutores, somos creadores. Cada proyecto lleva nuestra firma.
+- **Sentido donde otros no ven nada:** El mercado laboral tradicional "no tiene sentido" (Nothing Sense). Construimos nuestro propio camino, con reglas claras y propósito.
+- **Hecho en Colombia:** Entendemos nuestro contexto y construimos para él. Sin copiar modelos foráneos.
+- **Simple, directo, sin burocracia:** Soluciones limpias, sin vueltas.
+- **Trabajo digno:** Esto es también un negocio. Generar ganancias nos permite seguir creando.
+
+---
+
 ## 1. Resumen Ejecutivo y Origen de la Entidad
 
 **Nothing Sense** nace como un emprendimiento tecnológico (*Startup*) originado a partir de la sinergia estratégica entre la ingeniería de sistemas (liderada por Steven Ricardo) y la gerencia integral de proyectos (liderada por Fredinson Solano). El núcleo fundacional opera bajo un esquema de cercanía ("grupo de amigos y familiares"), pero se estructura bajo rigurosos estándares corporativos para asegurar su viabilidad comercial. El objetivo es desplegar la plataforma NAP minimizando el riesgo financiero inicial (*Bootstrapping*) y maximizando el retorno de inversión a través de una ejecución ágil.
