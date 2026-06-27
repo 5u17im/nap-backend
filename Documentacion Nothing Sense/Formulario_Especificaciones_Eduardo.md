@@ -16,17 +16,26 @@
 | Variante vertical / isotipo (icono solo) | |
 | Versión en blanco y negro / negativo | |
 
-## 2. Paleta de Colores
+## 2. Paleta de Colores — "Forest Whispers"
 
 | Rol | Hex | RGB | Uso |
 |---|---|---|---|
-| **Primario** | `#______` | | Fondos oscuros, header, footer |
-| **Secundario** | `#______` | | Fondos claros, tarjetas |
-| **Acento** | `#______` | | Botones, CTAs, enlaces, detalles |
-| **Texto principal** | `#______` | | Cuerpo de texto |
-| **Texto secundario** | `#______` | | Subtítulos, metadata |
-| **Fondo claro** | `#______` | | Secciones de contenido |
-| **Fondo oscuro** | `#______` | | Hero, footer |
+| **Primario / Texto principal** | `#0D0D0D` | `rgb(13, 13, 13)` | Texto, fondos oscuros, header, footer. 17.2:1 ✅ AAA |
+| **Secundario / Texto secundario** | `#424750` | `rgb(66, 71, 80)` | Subtítulos, metadata. 8.3:1 ✅ AAA |
+| **Fondo claro** | `#F3F0F5` | `rgb(243, 240, 245)` | Fondo principal, tarjetas, secciones |
+| **Acento brillante** | `#70B924` | `rgb(112, 185, 36)` | Botones CTA sobre **fondo oscuro** (texto negro). ⚠️ Falla AA con blanco (2.43:1) |
+| **Acento oscuro** | `#3B7A24` | `rgb(59, 122, 36)` | Botones CTA sobre **fondo claro** / texto blanco ✅ AA. Enlaces inline |
+
+### Reglas de uso por contexto
+
+| Contexto | Fondo | Acento a usar | Texto |
+|---|---|---|---|
+| Header / Hero | `#0D0D0D` | `#70B924` (brillante) | `#F3F0F5` |
+| Secciones claras | `#F3F0F5` | `#3B7A24` (oscuro) | `#0D0D0D` |
+| CTA primario (donde sea) | `#3B7A24` | — | Blanco `#FFFFFF` ✅ 5.26:1 |
+| CTA secundario (outline) | transparente | borde `#3B7A24` | `#3B7A24` ✅ 4.65:1 |
+| Enlaces inline | — | `#3B7A24` | — ✅ 4.65:1 |
+| Hover de botones | `#2E5E1A` | — | Blanco `#FFFFFF` ✅ 6.5:1+ |
 
 ## 3. Tipografía
 
